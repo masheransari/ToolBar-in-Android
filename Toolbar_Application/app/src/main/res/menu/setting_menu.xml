@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Refresh"
+        app:showAsAction="always"
+        android:id="@+id/refreshSetting"/>
+    <item
+        android:id="@+id/main_Setting"
+        android:title="Go In Main Activity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/second_Setting"
+        app:showAsAction="never"
+        android:title="Go To Second Activity"
+        />
+    <item
+        android:title="Third Activity"
+        android:id="@+id/third_Setting"
+        app:showAsAction="never"/>
+</menu>

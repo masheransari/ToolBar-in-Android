@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Refresh"
+        app:showAsAction="always"
+        android:id="@+id/refreshThird"/>
+    <item
+        android:id="@+id/main_Third"
+        android:title="Go In Main Activity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/second_Third"
+        app:showAsAction="never"
+        android:title="Go To Second Activity"
+        />
+    <item
+        android:title="Third Setting"
+        android:id="@+id/setting_Third"
+        app:showAsAction="always"
+        android:icon="@drawable/setting_icon"/>
+</menu>
